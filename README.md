@@ -66,9 +66,9 @@ End-to-end serverless analytics pipeline: raw CSV → dbt transformation layer (
 ---
 
 ### IMDb Sentiment Analysis — Live Demo
-**[imdb-sentiment-analysis](https://github.com/houcem58/imdb-sentiment-analysis)** · NLP · DistilBERT · HuggingFace
+**[imdb-sentiment-analysis](https://github.com/houcem58/imdb-sentiment-analysis)** · NLP · DistilBERT · HuggingFace · [**Live Demo →**](https://imdb-sentiment-analysis-nmzkx9rpyoinekhdr8onxf.streamlit.app)
 
-End-to-end NLP pipeline on 1,273 scraped IMDb reviews: zero-shot labelling, class balancing with contextual augmentation, and 5-model comparison (Logistic Regression → SVM → 1D-CNN → LSTM → DistilBERT fine-tuning). DistilBERT accuracy: 88.6%. Live inference demo via HuggingFace Inference API.
+End-to-end NLP pipeline on 1,273 scraped IMDb reviews: zero-shot labelling, class balancing with contextual augmentation, and 5-model comparison (Logistic Regression → SVM → 1D-CNN → LSTM → DistilBERT fine-tuning). DistilBERT accuracy: 88.6%. Live inference demo via HuggingFace Inference API with VADER fallback.
 
 `nlp` · `distilbert` · `huggingface` · `sentiment-analysis` · `python`
 
