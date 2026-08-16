@@ -12,9 +12,7 @@
 
 ---
 
-I design and build data-intensive systems end-to-end: streaming pipelines, ML fraud detection platforms, LLM-native ETL engines, and modern analytics stacks. My work combines engineering depth with technical leadership — architecture decisions documented in ADRs, systems governed by quality contracts, and everything reproducible.
-
-Currently a researcher at **LATICE Laboratory, ENSIT, Université de Tunis**, building toward Technical Manager and AI Engineering Manager roles in AI/Data platform engineering.
+Over seven years I moved from IT Department Head to Enterprise Programme Director to AI Platform Engineering Lead — each step taking on larger teams, more complex systems, and more ambiguous AI problems. I currently lead a **15-person AI & Data Platform team** delivering 4 concurrent AI projects, while pursuing applied research at **LATICE Laboratory, ENSIT, Université de Tunis** on LLM-native ETL architectures. My work spans both sides of the Technical Manager role: the engineering depth to make architecture decisions, and the programme management rigour to deliver on schedule and on budget.
 
 ---
 
@@ -32,7 +30,7 @@ Stateful micro-batch drift detector for Apache Kafka streams. Detects 5 drift ty
 ### Modern Data Platform
 **[modern-data-platform-demo](https://github.com/houcem58/modern-data-platform-demo)** · dbt · Airflow · PostgreSQL · Power BI
 
-4-layer Kimball star schema (staging → dimensions → fact → consumption) with 9 source quality gates, 8-task Airflow DAG with SLA monitoring, Power BI semantic layer with rolling window DAX measures, and 28 unit tests covering ingestion and validation logic.
+4-layer Kimball star schema (staging → dimensions → fact → consumption) with 9 data quality gates (6 source-level + 3 dbt tests), 9-task Airflow DAG with email alerting, Power BI semantic layer with rolling window DAX measures, and 34 unit tests across ingestion and validation modules.
 
 `dbt` · `airflow` · `postgresql` · `power-bi` · `data-engineering`
 
@@ -41,7 +39,7 @@ Stateful micro-batch drift detector for Apache Kafka streams. Detects 5 drift ty
 ### AML Fraud Detection Platform
 **[aml-fraud-detection-platform](https://github.com/houcem58/aml-fraud-detection-platform)** · GNN · XGBoost · Kafka · FastAPI
 
-Anti-money laundering platform combining HybridGAT graph neural network with XGBoost tabular scoring, context-aware fusion (ISOLATED vs DENSE transaction network contexts), BCT/ACPR/FinCEN regulatory rule engine, SHAP explainability, and nightly RLHF recalibration with automatic rollback. Full model card and ADR included.
+Anti-money laundering platform combining a 3-model ensemble — XGBoost tabular scorer, LightGBM behavioural scorer, and HybridGAT graph neural network — with context-aware fusion (ISOLATED vs DENSE transaction network contexts), BCT/ACPR/FinCEN regulatory rule engine, SHAP explainability, and nightly RLHF recalibration with automatic rollback. Full model card and ADR included.
 
 `fraud-detection` · `graph-neural-network` · `aml` · `kafka` · `fintech` · `regulatory`
 
@@ -50,7 +48,7 @@ Anti-money laundering platform combining HybridGAT graph neural network with XGB
 ### ConversaETL — Typed Conversational ETL
 **[ConversaETL-Showcase](https://github.com/houcem58/ConversaETL-Showcase)** · LLM · Python · Research
 
-Converts natural-language ETL requests into validated, reproducible dataframe transformations via LLM-assisted typed planning + deterministic compiler stack + output contract validation. ConversaBench evaluation: HC F1=0.847 vs. direct LLM code generation F1=0.691. No LLM-generated code executed at runtime. Research under review.
+Converts natural-language ETL requests into validated, reproducible dataframe transformations via LLM-assisted typed planning + deterministic compiler stack + output contract validation. ConversaBench evaluation: Hybrid Compiler F1=0.964 vs. direct LLM code generation baseline F1=0.308. No LLM-generated code executed at runtime. Research under review.
 
 `llm` · `etl` · `typed-compilation` · `nlp` · `research` · `generative-ai`
 
@@ -128,7 +126,7 @@ PMO documentation for a real enterprise data modernisation programme (2021–202
 
 ## Engineering Approach
 
-Every repo in this portfolio includes:
+The technical repos in this portfolio include:
 
 - **ADRs** — architecture decisions with rejected alternatives and review triggers
 - **Model cards** — evaluation metrics, fairness considerations, limitations
@@ -182,5 +180,13 @@ Remote · Tunisia · France · Open to relocation for senior roles.
   </a>
   <a href="https://github.com/houcem58/it-department-leadership">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=it-department-leadership&theme=default&hide_border=true" alt="it-department-leadership"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/houcem58/imdb-sentiment-analysis">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=imdb-sentiment-analysis&theme=default&hide_border=true" alt="imdb-sentiment-analysis"/>
+  </a>
+  <a href="https://github.com/houcem58/it-modernization-program">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=it-modernization-program&theme=default&hide_border=true" alt="it-modernization-program"/>
   </a>
 </p>
