@@ -120,6 +120,12 @@ Every repo in this portfolio includes:
 
 ---
 
+## How I Work as a Manager
+
+→ **[working-with-me.md](working-with-me.md)** — communication style, decision framework, 1:1 structure, engineering standards, and what I expect from teams.
+
+---
+
 ## Open To
 
 **Technical Manager** / **AI Engineering Manager** / **Data Engineering Manager** / **Technical Program Manager** / **AI Platform Lead**
