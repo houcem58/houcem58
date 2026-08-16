@@ -56,16 +56,54 @@ Converts natural-language ETL requests into validated, reproducible dataframe tr
 
 ---
 
+### Superstore Analytics — Live Dashboard
+**[superstore-analytics](https://github.com/houcem58/superstore-analytics)** · dbt · DuckDB · Streamlit · [**Live Demo →**](https://superstore-analytics-pvqwdbz5waeahtnx5utgp6.streamlit.app)
+
+End-to-end serverless analytics pipeline: raw CSV → dbt transformation layer (staging → warehouse → 3 mart models) → DuckDB embedded OLAP → Streamlit interactive dashboard. 7 chart sections, 4 sidebar filters, CI on every push. Zero server setup required.
+
+`dbt` · `duckdb` · `streamlit` · `analytics` · `python`
+
+---
+
+### IMDb Sentiment Analysis — Live Demo
+**[imdb-sentiment-analysis](https://github.com/houcem58/imdb-sentiment-analysis)** · NLP · DistilBERT · HuggingFace
+
+End-to-end NLP pipeline on 1,273 scraped IMDb reviews: zero-shot labelling, class balancing with contextual augmentation, and 5-model comparison (Logistic Regression → SVM → 1D-CNN → LSTM → DistilBERT fine-tuning). DistilBERT accuracy: 88.6%. Live inference demo via HuggingFace Inference API.
+
+`nlp` · `distilbert` · `huggingface` · `sentiment-analysis` · `python`
+
+---
+
+## Leadership & Programme Delivery
+
+### Agile AI Delivery Playbook
+**[agile-ai-delivery-playbook](https://github.com/houcem58/agile-ai-delivery-playbook)** · TPM · Scrum · Product Owner
+
+Full Scrum delivery playbook from a real programme: AI Intelligence Analytics Platform at Navy HQ (2023–2024). 12-person team, 4 sprints, 30% delivery cycle reduction, 4/4 sprint objectives met. Covers product vision, team/ceremonies, backlog (63 pts across 4 epics), sprint journals with burndowns, velocity analysis, and full release retrospective.
+
+`agile` · `scrum` · `tpm` · `product-management` · `pmp`
+
+---
+
+### IT Modernisation Programme — PMO Case Study
+**[it-modernization-program](https://github.com/houcem58/it-modernization-program)** · PMP · PMO · Data Platform
+
+PMO documentation for a real enterprise data modernisation programme (2021–2023): Kafka + Spark streaming ETL, PySpark + dbt + PostgreSQL warehouse, Power BI dashboards. Delivered 2 months ahead of schedule. 99.7% infrastructure availability. Documents cover charter, RACI, WBS, risk register, 3 COPIL steering committee records, and closure report.
+
+`pmo` · `program-management` · `data-engineering` · `pmp` · `governance`
+
+---
+
 ## Stack
 
 | Domain | Technologies |
 |---|---|
-| Data Engineering | dbt · Apache Airflow · Apache Kafka · PostgreSQL · Python |
+| Data Engineering | dbt · Apache Airflow · Apache Kafka · PostgreSQL · DuckDB · Python |
 | Machine Learning | XGBoost · LightGBM · PyTorch Geometric · HuggingFace Transformers · scikit-learn |
 | MLOps | SHAP explainability · RLHF · drift detection · model versioning · GitHub Actions |
+| Analytics & BI | Streamlit · Power BI · DAX · Kimball star schema · Plotly |
 | Infrastructure | Docker · Docker Compose · CI/CD pipelines |
-| Analytics | Power BI · DAX · Kimball star schema · rolling window aggregations |
-| Documentation | Architecture Decision Records · Model Cards · Runbooks · Sequence diagrams |
+| Leadership | PMP · PSM II · PSPO II · CPMAI · ADRs · Model Cards · Runbooks |
 | Languages | Python · SQL (PostgreSQL, dbt-SQL) |
 
 ---
@@ -104,5 +142,13 @@ Remote · Tunisia · France · Open to relocation for senior roles.
   </a>
   <a href="https://github.com/houcem58/ConversaETL-Showcase">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=ConversaETL-Showcase&theme=default&hide_border=true" alt="ConversaETL-Showcase"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/houcem58/superstore-analytics">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=superstore-analytics&theme=default&hide_border=true" alt="superstore-analytics"/>
+  </a>
+  <a href="https://github.com/houcem58/agile-ai-delivery-playbook">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=agile-ai-delivery-playbook&theme=default&hide_border=true" alt="agile-ai-delivery-playbook"/>
   </a>
 </p>
