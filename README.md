@@ -48,7 +48,7 @@ Anti-money laundering platform combining a 3-model ensemble — XGBoost tabular 
 ### ConversaETL — Typed Conversational ETL
 **[ConversaETL-Showcase](https://github.com/houcem58/ConversaETL-Showcase)** · LLM · Python · Research
 
-Converts natural-language ETL requests into validated, reproducible dataframe transformations via LLM-assisted typed planning + deterministic compiler stack + output contract validation. ConversaBench evaluation: Hybrid Compiler F1=0.964 vs. direct LLM code generation baseline F1=0.308. No LLM-generated code executed at runtime. Research under review.
+Converts natural-language ETL requests into validated, reproducible dataframe transformations via LLM-assisted typed planning + deterministic compiler stack + output contract validation. ConversaBench evaluation: Hybrid Compiler F1=0.964 vs. direct LLM code generation baseline F1=0.308. No LLM-generated code executed at runtime. Research under review at *Big Data Mining and Analytics* (Tsinghua / IEEE).
 
 `llm` · `etl` · `typed-compilation` · `nlp` · `research` · `generative-ai`
 
