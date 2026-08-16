@@ -76,6 +76,24 @@ End-to-end NLP pipeline on 1,273 scraped IMDb reviews: zero-shot labelling, clas
 
 ## Leadership & Programme Delivery
 
+### AI Platform Engineering — Management Playbook
+**[ai-platform-engineering](https://github.com/houcem58/ai-platform-engineering)** · AI Governance · MLOps · Release Management · 2025–Present
+
+Engineering management playbook for a 15-person AI & Data Platform team delivering 4 concurrent AI projects. Covers team structure, AI governance framework with model cards and ethics checklist, MLOps standards (experiment tracking, staged promotion, drift monitoring), blue/green release management at 2 releases/month, and architecture decision records.
+
+`ai-governance` · `mlops` · `engineering-management` · `release-management` · `platform-engineering`
+
+---
+
+### IT Department Leadership — Case Study
+**[it-department-leadership](https://github.com/houcem58/it-department-leadership)** · Digital Transformation · Budget Management · Team Leadership · 2017–2020
+
+Management case study for an 8-person IT department: 5 digital transformation initiatives delivered in 3 years, 30% operational cost reduction through infrastructure consolidation and vendor renegotiation, availability raised from 96% to 99.3%, service desk SLA compliance from 72% to 94%. Includes budget breakdown, vendor management framework, and team development approach.
+
+`digital-transformation` · `it-management` · `budget-management` · `team-leadership` · `governance`
+
+---
+
 ### Agile AI Delivery Playbook
 **[agile-ai-delivery-playbook](https://github.com/houcem58/agile-ai-delivery-playbook)** · TPM · Scrum · Product Owner
 
@@ -156,5 +174,13 @@ Remote · Tunisia · France · Open to relocation for senior roles.
   </a>
   <a href="https://github.com/houcem58/agile-ai-delivery-playbook">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=agile-ai-delivery-playbook&theme=default&hide_border=true" alt="agile-ai-delivery-playbook"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/houcem58/ai-platform-engineering">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=ai-platform-engineering&theme=default&hide_border=true" alt="ai-platform-engineering"/>
+  </a>
+  <a href="https://github.com/houcem58/it-department-leadership">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=houcem58&repo=it-department-leadership&theme=default&hide_border=true" alt="it-department-leadership"/>
   </a>
 </p>
