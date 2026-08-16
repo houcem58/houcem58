@@ -57,7 +57,7 @@ Converts natural-language ETL requests into validated, reproducible dataframe tr
 ### Superstore Analytics — Live Dashboard
 **[superstore-analytics](https://github.com/houcem58/superstore-analytics)** · dbt · DuckDB · Streamlit · [**Live Demo →**](https://superstore-analytics-pvqwdbz5waeahtnx5utgp6.streamlit.app)
 
-End-to-end serverless analytics pipeline: raw CSV → dbt transformation layer (staging → warehouse → 3 mart models) → DuckDB embedded OLAP → Streamlit interactive dashboard. 7 chart sections, 4 sidebar filters, CI on every push. Zero server setup required.
+End-to-end serverless analytics pipeline: raw CSV → dbt transformation layer (staging → warehouse → 3 mart models) → DuckDB embedded OLAP → Streamlit interactive dashboard. 8 chart sections, 4 sidebar filters, CI on every push. Zero server setup required.
 
 `dbt` · `duckdb` · `streamlit` · `analytics` · `python`
 
