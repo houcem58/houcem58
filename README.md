@@ -147,6 +147,6 @@ The technical repos in this portfolio include:
 
 **Technical Manager** / **AI Engineering Manager** / **Data Engineering Manager** / **Technical Program Manager** / **AI Platform Lead**
 
-Remote · Tunisia · France · Open to relocation for senior roles.
+Remote · Tunisia · Open to relocation worldwide for senior roles.
 
 ---
