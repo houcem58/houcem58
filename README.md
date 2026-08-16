@@ -3,6 +3,7 @@
 <p align="center">
   AI & Data systems engineer · Tunisia &nbsp;|&nbsp;
   <a href="https://linkedin.com/in/houcem-hammami">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.credly.com/users/houcem-hammami">Credly</a> &nbsp;·&nbsp;
   <a href="mailto:houcem0508@gmail.com">houcem0508@gmail.com</a>
 </p>
 
